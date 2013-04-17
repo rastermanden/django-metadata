@@ -11,6 +11,7 @@ setup(
     version = '0.1',
     packages = ['metadata'],
     include_package_data = True,
+    packages=find_packages(),
     license = 'BSD License', # example license
     description = 'Django app for registration listing and searching of spatial metadata',
     long_description = README,

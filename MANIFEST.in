@@ -1,2 +1,5 @@
-include LICENSE
-recursive-include metadata/templates *
+include AUTHORS CHANGES README INSTALL LICENSE
+recursive-include metadata *.py *.html *.js *.css
+include docs/Makefile
+recursive-include docs/source *
+
