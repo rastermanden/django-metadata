@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.db import models
-from djorm_pgarray.fields import ArrayField # http://www.niwi.be/2012/10/07/postgresql-array-fields-with-django/
+#from djorm_pgarray.fields import ArrayField # http://www.niwi.be/2012/10/07/postgresql-array-fields-with-django/
 import uuid
 import datetime
 def make_uuid():
