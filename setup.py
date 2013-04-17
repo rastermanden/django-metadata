@@ -17,6 +17,7 @@ setup(
     url = 'http://www.example.com/',
     author = 'Martin Bjærge Jensen',
     author_email = 'martin@septima.dk',
+    zip_safe=False,
     classifiers = [
         'Environment :: Web Environment',
         'Framework :: Django',
