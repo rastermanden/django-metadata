@@ -38,8 +38,8 @@ class Metadata(models.Model):
     electronicmailaddress = models.EmailField('e-mail',max_length=200)
     created = models.DateTimeField('Oprettet', default=datetime.datetime.now) # maybe datetime.datetime.now as default ?
     updated = models.DateTimeField('Opdateret',auto_now=False)
-    beginposition = models.DateTimeField('gældende fra')
-    endposition = models.DateTimeField('gældende til')
+    beginposition = models.DateField('gældende fra')
+    endposition = models.DateField('gældende til')
     accessconstraints = models.TextField('Betingelser for adgang og brug',max_length=200,null=True, blank=True)
     useconstraints = models.TextField('Begrænsninger på offentlig adgang',max_length=200,null=True, blank=True)
    # otherconstraints = models.CharField(max_length=200,null=True, blank=True)
