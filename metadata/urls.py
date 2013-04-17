@@ -3,6 +3,7 @@ from django.conf.urls import patterns, url
 from metadata.views import MetadataList, MetadataDetail
 
 urlpatterns = patterns('',
+    url(r'^$', lambda x: HttpResponseRedirect('/list/')),
     url(r'^list/', MetadataList.as_view(), name='list'),
     url(r'^detail/(?P<slug>[-_\w]+)/$', MetadataDetail.as_view(), name='detail'),
 
