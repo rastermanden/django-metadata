@@ -1,6 +1,6 @@
 import os
 from setuptools import setup
-
+from setuptools import find_packages
 README = open(os.path.join(os.path.dirname(__file__), 'README.txt')).read()
 
 # allow setup.py to be run from any path
