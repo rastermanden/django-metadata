@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name = 'django-metadata',
     version = '0.1',
-    packages = find_packages(),
+    packages = ['metadata'],
     include_package_data = True,
     license = 'BSD License', # example license
     description = 'Django app for registration listing and searching of spatial metadata',
