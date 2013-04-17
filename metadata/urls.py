@@ -2,7 +2,7 @@
 from django.conf.urls import patterns, url
 from metadata.views import MetadataList, MetadataDetail
 from django.http import HttpResponseRedirect
-from django.views.generic.simple import redirect_to
+from django.views.generic import redirect_to
 
 urlpatterns = patterns('',
    # url(r'^$', lambda x: HttpResponseRedirect('/list/')), ##http://matthowell.com/blog/2009/12/12/django-url-redirect-shortcut/
