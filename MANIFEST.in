@@ -2,4 +2,5 @@ include AUTHORS CHANGES README INSTALL LICENSE
 recursive-include metadata *.py *.html *.js *.css
 include docs/Makefile
 recursive-include docs/source *
-
+recursive-include metadata/templates *
+recursive-include metadata/static *
